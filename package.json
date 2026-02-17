@@ -1,0 +1,27 @@
+{
+  "name": "demodernizer",
+  "version": "1.0.0",
+  "description": "An agentic tool for creating \"legacy\" applications -- software using old technologies and full of tech debt",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidstanke/demodernizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/davidstanke/demodernizer/issues"
+  },
+  "homepage": "https://github.com/davidstanke/demodernizer#readme",
+  "dependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
