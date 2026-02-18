@@ -1,4 +1,4 @@
--- SQLite schema for Butter Bakery
+-- SQLite schema for Legacy Bakery
 DROP TABLE IF EXISTS menu_items;
 
 CREATE TABLE menu_items (

@@ -1,6 +1,6 @@
-# Butter Bakery Site
+# Legacy Bakery Site
 
-This is a simple React application for "Butter Bakery" located in Jersey City.
+This is a simple React application for "Legacy Bakery" located in Jersey City.
 
 ## Features
 - Information about the bakery (address, hours).

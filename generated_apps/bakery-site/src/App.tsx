@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Butter Bakery</h1>
+        <h1>Legacy Bakery</h1>
         <p className="subtitle">Crafting sweetness in Jersey City</p>
       </header>
       <main className="App-content">
@@ -43,7 +43,7 @@ function App() {
         </section>
       </main>
       <footer className="App-footer">
-        <p>&copy; 2026 Butter Bakery. All rights reserved.</p>
+        <p>&copy; 2026 Legacy Bakery. All rights reserved.</p>
       </footer>
     </div>
   );

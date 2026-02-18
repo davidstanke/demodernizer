@@ -1,4 +1,4 @@
-# Butter Bakery - Java/Struts Edition
+# Legacy Bakery - Java/Struts Edition
 
 This is a "legacy" application built with:
 - Java 7
@@ -9,7 +9,7 @@ This is a "legacy" application built with:
 
 ## Requirements
 The application fulfills the following requirements:
-- Main Heading: "Butter Bakery"
+- Main Heading: "Legacy Bakery"
 - Menu Items: Classic Croissant, Sourdough Loaf, Pain au Chocolat
 - Hours: Monday - Friday:
 - Contact: 123 Bakery Lane, Jersey City, NJ 07302

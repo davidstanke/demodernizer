@@ -6,7 +6,7 @@ public class HomeAction extends ActionSupport {
     private String message;
 
     public String execute() {
-        message = "Butter Bakery";
+        message = "Legacy Bakery";
         return SUCCESS;
     }
 

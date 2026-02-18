@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Butter Bakery</title>
+    <title>Legacy Bakery</title>
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- jQuery -->
@@ -28,7 +28,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Butter Bakery</a>
+          <a class="navbar-brand" href="#">Legacy Bakery</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -93,7 +93,7 @@
       <hr>
 
       <footer>
-        <p>&copy; 2026 Butter Bakery. All rights reserved.</p>
+        <p>&copy; 2026 Legacy Bakery. All rights reserved.</p>
       </footer>
     </div>
 </body>

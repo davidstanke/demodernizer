@@ -5,6 +5,7 @@
 <struts>
     <constant name="struts.devMode" value="true" />
     <package name="default" extends="struts-default" namespace="/">
+        <default-action-ref name="index" />
         <action name="index" class="com.legacybakery.action.HomeAction">
             <result name="success">/index.jsp</result>
         </action>

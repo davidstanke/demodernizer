@@ -1,8 +1,10 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Butter Bakery Site', () => {
+const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';
+
+test.describe('Legacy Bakery Site', () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto('http://localhost:3000');
+    await page.goto(BASE_URL);
   });
 
   test('should display the main heading', async ({ page }) => {
