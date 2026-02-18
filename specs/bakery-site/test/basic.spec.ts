@@ -6,7 +6,7 @@ test.describe('Butter Bakery Site', () => {
   });
 
   test('should display the main heading', async ({ page }) => {
-    await expect(page.getByRole('heading', { name: 'Butter Bakery', level: 1 })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Legacy Bakery', level: 1 })).toBeVisible();
   });
 
   test('should list bakery products', async ({ page }) => {

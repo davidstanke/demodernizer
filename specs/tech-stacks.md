@@ -3,12 +3,13 @@ When generating application code, you must use one of the **tech stacks** specif
 Tech stack: **Java**
 - **Language:** Java 7
 - **Framework:** Struts
-- **Database:** MySQL
+- **Database:** SQLite
 - **Frontend:** Jquery and bootstrap
 - **Build System:** Maven
+  - use `mvnw` (maven wrapper) so that `mvn` (maven) doesn't have to be installed
 
 Tech stack: **Python**
 - **Language:** Python 2
 - **Framework:** Zope
-- **Database:** MySQL
+- **Database:** SQLite
 - **Frontend:** Jquery and bootstrap
