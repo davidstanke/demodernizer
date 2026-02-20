@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <constant name="struts.devMode" value="true" />
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="" class="com.bakery.action.HomeAction">
+            <result name="success">/index.jsp</result>
+        </action>
+        <action name="menu" class="com.bakery.action.MenuAction">
+            <result name="success">/menu.jsp</result>
+        </action>
+        <action name="checkout" class="com.bakery.action.CheckoutAction">
+            <result name="success">/checkout.jsp</result>
+        </action>
+        <action name="checkoutSubmit" class="com.bakery.action.CheckoutSubmitAction">
+            <result name="success">/checkout.jsp</result>
+        </action>
+        <action name="custom-cakes" class="com.bakery.action.CustomCakesAction">
+            <result name="success">/custom-cakes.jsp</result>
+        </action>
+        <action name="customCakesSubmit" class="com.bakery.action.CustomCakesSubmitAction">
+            <result name="success">/custom-cakes.jsp</result>
+        </action>
+    </package>
+</struts>
