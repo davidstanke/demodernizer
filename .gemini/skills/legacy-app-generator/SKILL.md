@@ -24,12 +24,18 @@ Proceed to build the application:
 - Write the complete application code inside this target directory to fulfill the spec using the exact tech stack rules. Use appropriate tools like `write_file` and `run_shell_command` as needed.
 - **Important Constraint:** Do NOT write test files. The agent should exclusively use the pre-existing tests in the `specs/{spec_name}/test/` directory.
 
-## 4. Testing and Validation
+## 4. Managing dependencies without affecting the local system
+Use any available techniques to run the application without installing any software to the underlying system. Examples:
+- When running Python code, create and use a **Virtual Environment**
+- When running Java code, use `mvnw` (Maven Wrapper) so that `mvn` (Maven) does not need to be installed
+- If required tools/packages can't be run without being installed, consider running a (docker) container to isolate installed packages
+
+## 5. Testing and Validation
 ALWAYS verify the generated application against the spec's tests:
 - Activate the `test-runner` skill to execute the validation tests associated with the chosen spec.
 - Iteratively fix any test failures until the application fully passes.
 - If you are unable to get the application to fully pass after 3 turns, revert any changes you've made and tell the user your best explanation for what went wrong.
 - NEVER modify the tests
 
-## 5. Documentation
+## 6. Documentation
 Create a file named `README.md` in the target directory for developer documentation: briefly describes the application, how it's implemented, and how to run it.

@@ -13,3 +13,4 @@ Tech stack: **Python**
 - **Framework:** Zope
 - **Database:** SQLite
 - **Frontend:** Jquery and bootstrap
+- **Supporting technologies:** Pip; Virtualenv
