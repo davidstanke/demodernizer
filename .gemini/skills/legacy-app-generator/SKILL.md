@@ -23,6 +23,7 @@ Proceed to build the application:
 - Establish the target directory: `generated_apps/{spec_name}_{tag}/`.
 - Write the complete application code inside this target directory to fulfill the spec using the exact tech stack rules. Use appropriate tools like `write_file` and `run_shell_command` as needed.
 - **Important Constraint:** Do NOT write test files. The agent should exclusively use the pre-existing tests in the `specs/{spec_name}/test/` directory.
+- **DO NOT** create or modify any files outside of the target directory. All application code, temp folders, working directories, etc. should be contained within the target directory.
 
 ## 4. Managing dependencies without affecting the local system
 Use any available techniques to run the application without installing any software to the underlying system. Examples:
