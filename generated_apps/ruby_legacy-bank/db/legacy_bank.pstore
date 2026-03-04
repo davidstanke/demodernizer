@@ -1,27 +1,0 @@
-{:_transaction_seqi	:accounts[	o:Account:@status"ACTIVE:@product_code"CHK-STD:@idi:@balancef450:@customer_idi
-:@account_number"1000001:@currency_code"USDo;;"ACTIVE;	"CHK-STD;
-i;f0;i;"1000002;"USDo;;"ACTIVE;
-i;	"CHK-STD;f450;i;"1000003;"USDo;;"ACTIVE;
-i	;	"CHK-STD;f0;i;"1000004;"USD:transactions[	o:BankTransaction:@description"Initial Deposit;
-i:@currency"USD:@amountf500:@transaction_date"#Wed Mar 04 23:14:11 +0000 2026:@account_idi:
-@type"DEPOSIT:@balance_afterf500o;;"Cash Withdrawal;"USD;
-i;f50;"#Wed Mar 04 23:14:11 +0000 2026;"WITHDRAWAL;i;@
-o;;"Initial Deposit;"USD;
-i;f500;"#Wed Mar 04 23:18:52 +0000 2026;"DEPOSIT;i;f500o;;"Cash Withdrawal;
-i	;"USD;f50;"#Wed Mar 04 23:18:52 +0000 2026;i;"WITHDRAWAL;@:_account_seqi	:_customer_seqi:customers[o:Customer:@first_name"
-Alice;
-i:@customer_number"	2002:@email"alice.smith@example.com:@date_of_birth"1990-01-01:@last_name"
-Smitho;;
-i;"Bob;"	3003;"bob.jones@example.com;"1970-12-12; "
-Joneso;;
-i
-;"
-Alice;"	2002;"alice.smith@example.com;"1990-01-01; "
-Smitho;;
-i;"Bob;"	3003;"bob.jones@example.com;"1970-12-12; "
-Joneso;;"
-Alice;
-i;"	2002;"alice.smith@example.com;"1990-01-01; "
-Smitho;;"Bob;
-i;"	3003;"bob.jones@example.com;"1970-12-12; "
-Jones

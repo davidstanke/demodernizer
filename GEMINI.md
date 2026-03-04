@@ -36,7 +36,7 @@ ALWAYS verify the generated application against the spec's tests:
 At the end of phase , launch the application in a browser and ask the user if they'd like to proceed to phase 4 (add tech debt)
 
 ## PHASE 4: DESIGN
-
+Using the `designer` agent, add visual styling to the application. Make it look like an application which believably could have been used by a real business, 15+ years ago.
 
 ## PHASE 5: ADDING TECH DEBT
 Using the `smellifier` agent, DECREASE code quality and elegance by adding elements of tech debt, in the form of bad "smells." Do not modify more than 10% of the codebase. ALWAYS verify that the tests sill pass, using the `test-runner` agent.
