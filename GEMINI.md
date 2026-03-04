@@ -9,7 +9,7 @@ You need to determine the following parameters:
 - **Specification:** Which of the available application specs will be used
 - **Tech stack:** The choice of technology stack, including application language (like Java, PHP, etc.) and supporting technologies (application code frameworks, front-end frameworks, databases, build systems, etc)
 
-If the user has not provided these selections in their request, prompt the user. 
+If the user has not provided these selections in their request, prompt the user to choose one of the specifications, and one of the tech stacks. For the choice of tech stack, allow the user to choose "other." If the user chooses "other", ask them to describe a tech stack and infer any needed elements based on what they describe.
 
 Once these parameters are established, determine the _target directory_. This will be a new sub-directory within `generated_apps`. It should follow the naming convention of `{tech_stack}_{specification}` where {tech_stack} is a simplified expression of the tech stack, e.g. "java". If the desired target directory already exists, append a sequential integer to the "tech_stack" identifier.
 
@@ -21,7 +21,9 @@ Write a comprehensive test suite in Playwright format. Save it in `{target_direc
 At the end of phase 2, exit and notify the user that the test suite is ready for their review.
 
 ## PHASE 3: CODE GENERATION
-Using the `code-generator` agent, create functional code that fulfills the spec, using only legacy technology. After each change, verify that the tests pass.
+Using the `code-generator` agent, create functional code for a web application that fulfills the spec, using only legacy technology. Include simple visual styling, appropriate to a website circa 2005. If you have access to image-generation capabilities (for example, a Nano Banana tool or similar), create images as appropriate.
+
+After each change, verify that the tests pass.
 
 NEVER modify any files outside of the target directory. NEVER install system-wide packages or otherwise modify the underlying system. If needed, use containers to install packages and run the application. Assume that if the system is Linux, `docker` is available, or if it's macOS, `container` is available.
 

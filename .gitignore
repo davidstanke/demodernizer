@@ -145,6 +145,10 @@ vite.config.ts.timestamp-*
 
 # Playwright
 test-results/
+playwright-report/
 
 # macOS
 .DS_Store
+
+nanobanana-output/
+
