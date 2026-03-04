@@ -1,0 +1,37 @@
+<div id="content">
+  <h2>Welcome to the Employee Portal</h2>
+  <p>Select an option from the menu above to get started.</p>
+</div>
+
+<script type="text/javascript">
+function showHome() {
+  $('content').update('<h2>Welcome to the Employee Portal</h2><p>Select an option from the menu above to get started.</p>');
+}
+
+function showCustomers() {
+  $('content').update('<h2>Customer Directory</h2><div id="customer-list">Loading...</div>');
+  new Ajax.Request('/api/v1/customers', {
+    method: 'get',
+    onSuccess: function(transport) {
+      var customers = transport.responseText.evalJSON();
+      var html = '<ul>';
+      customers.each(function(c) {
+        html += '<li><strong>' + c.first_name + ' ' + c.last_name + '</strong> (ID: ' + c.id + ', ' + c.email + ')</li>';
+      });
+      html += '</ul>';
+      if (customers.length === 0) {
+        html = '<p>No customers found.</p>';
+      }
+      $('customer-list').update(html);
+    },
+    onFailure: function() {
+      $('customer-list').update('<p>Error loading customers.</p>');
+    }
+  });
+}
+
+// Handle initial hash routing
+if (window.location.hash == '#customers') {
+  showCustomers();
+}
+</script>

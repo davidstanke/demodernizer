@@ -1,3 +1,17 @@
+# Feature: Store name and hero image
+# As a hungry customer, I want to see the store's name and learn what exciting things are going on.
+
+Feature: Name and news
+
+  Scenario: Checking what's new
+    Given I am on the bakery home page
+    When I look at the top of the site
+    Then I should see the bakery name "Legacy Bakery"
+    And I should see engaging content describing promotions
+    And I should see images of delicious baked goods
+
+---
+
 # Feature: Store Information & Accessibility
 # As a hungry customer, I want to see the shop's location and hours so that I can visit in person.
 
