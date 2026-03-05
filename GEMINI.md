@@ -25,7 +25,7 @@ Using the `code-generator` agent, create functional code for a web application t
 
 After each change, verify that the tests pass.
 
-NEVER modify any files outside of the target directory. NEVER install system-wide packages or otherwise modify the underlying system. If needed, use containers to install packages and run the application. Assume that if the system is Linux, `docker` is available, or if it's macOS, `container` is available.
+NEVER modify any files outside of the target directory. NEVER install system-wide packages or otherwise modify the underlying system. If needed, use containers to install packages and run the application. 
 
 ALWAYS verify the generated application against the spec's tests:
 - Activate the `test-runner` agent to execute the validation tests associated with the chosen spec.

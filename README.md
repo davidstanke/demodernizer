@@ -8,3 +8,6 @@ See `GEMINI.md` and the skills in `.gemini/skills` for more details.
 ## Setting up
 - `npm install -g playwright`
 - `npx playwright install`
+
+### Image generation
+It's likely that your application will benefit from having some images. It's recommended to install the [nano banana gemini tool](https://geminicli.com/extensions/?name=gemini-cli-extensionsnanobanana).
