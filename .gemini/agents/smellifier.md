@@ -17,6 +17,9 @@ timeout_mins: 10
 
 This skill introduces "bad code smells" and increases technical debt in an existing codebase, simulating years of uncoordinated maintenance, employee turnover, and rushed deadlines.
 
+## CONSTRAINTS
+**DO NOT modify more than 25% of the code on an individual execution of this skill.**
+
 ## Core Rules
 
 1. **NEVER Break Functionality**: The application must continue to work exactly as it did before.

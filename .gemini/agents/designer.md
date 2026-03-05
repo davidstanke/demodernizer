@@ -9,6 +9,7 @@ tools:
   - replace
   - list_directory
   - glob
+  - nanobanana
 max_turns: 3
 timeout_mins: 5
 ---
@@ -28,6 +29,7 @@ This skill modifies an existing appliction to add visual design elements (colors
 2. However, the designer isn't necessarily very impressive. To a contemporary viewer, the site should look dated and in need of a refresh.
 3. Use colors, visual elements, font and style choices that are self-consistent and period-appropriate.
 4. Use coding approaches that are appropriate to how UIs were implemented 15+ years ago. But don't introduce major changes to the technical architecture.
+5. Use images for branding elements. For example, for a site header (e.g. "Legacy Bank" or "Legacy Bakery"), make a logo image in an appropriate early-2000s style to serve as a graphic element.
 
 ## Workflow
 

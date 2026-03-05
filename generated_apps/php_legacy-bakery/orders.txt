@@ -1,0 +1,6 @@
+Order at 2026-03-05 23:41:26 - Items: Cinnamon Roll, Large Oat Milk Latte - Pickup: 15min
+Order at 2026-03-05 23:43:10 - Items: Cinnamon Roll, Large Oat Milk Latte - Pickup: 15min
+Order at 2026-03-05 23:43:37 - Items: Espresso, Butter Croissant - Pickup: 15min
+Order at 2026-03-05 23:43:53 - Items: Cinnamon Roll, Large Oat Milk Latte - Pickup: 15min
+Order at 2026-03-05 23:46:47 - Items: Cinnamon Roll, Large Oat Milk Latte - Pickup: 15min
+Order at 2026-03-05 23:46:54 - Items: Cinnamon Roll, Large Oat Milk Latte - Pickup: 15min
