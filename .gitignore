@@ -146,9 +146,11 @@ vite.config.ts.timestamp-*
 # Playwright
 test-results/
 playwright-report/
+.playwright-cli/
 
 # macOS
 .DS_Store
 
+# Gemini CLI
 nanobanana-output/
-
+.gemini/tmp/
