@@ -16,7 +16,7 @@ Once these parameters are established, determine the _target directory_. This wi
 At the end of phase 1, proceed to phase 2.
 
 ## PHASE 2: TEST GENERATION
-Write a comprehensive test suite in Playwright format. Save it in `{target_directory}/test/playwright`
+Write a comprehensive test suite in Playwright format. Save it in `{target_directory}/test/playwright`. In cases where data entities have primary identifiers, always auto-generate those identifiers (e.g. by using auto-incrementing integer values in the database).
 
 At the end of phase 2, exit and notify the user that the test suite is ready for their review.
 
@@ -25,7 +25,7 @@ Using the `code-generator` agent, create functional code for a web application t
 
 After each change, verify that the tests pass.
 
-NEVER modify any files outside of the target directory. NEVER install system-wide packages or otherwise modify the underlying system. If needed, use containers to install packages and run the application. Assume that if the system is Linux, `docker` is available, or if it's macOS, `container` is available.
+NEVER modify any files outside of the target directory. NEVER install system-wide packages or otherwise modify the underlying system. If needed, use containers to install packages and run the application. 
 
 ALWAYS verify the generated application against the spec's tests:
 - Activate the `test-runner` agent to execute the validation tests associated with the chosen spec.
@@ -33,9 +33,12 @@ ALWAYS verify the generated application against the spec's tests:
 - If you are unable to get the application to fully pass after 3 turns, revert any changes you've made and tell the user your best explanation for what went wrong.
 - NEVER modify the tests
 
-At the end of phase 3, launch the application in a browser and ask the user if they'd like to proceed to phase 4 (add tech debt)
+At the end of phase , launch the application in a browser and ask the user if they'd like to proceed to phase 4 (add tech debt)
 
-## PHASE 4: ADDING TECH DEBT
+## PHASE 4: DESIGN
+Using the `designer` agent, add visual styling to the application. Make it look like an application which believably could have been used by a real business, 15+ years ago.
+
+## PHASE 5: ADDING TECH DEBT
 Using the `smellifier` agent, DECREASE code quality and elegance by adding elements of tech debt, in the form of bad "smells." Do not modify more than 10% of the codebase. ALWAYS verify that the tests sill pass, using the `test-runner` agent.
 
 At the end of phase 4, ask the user if they'd like to generate more tech debt.
